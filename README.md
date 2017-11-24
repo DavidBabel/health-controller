@@ -15,13 +15,13 @@ yarn add Ogury/module-healthcheck#v1.X.X
 You can create the endpoint this way :
 
 ```javascript
-import healthController, {addToHealthCheck} from 'module-healthcheck';
+import healthController, {addHealthCheck} from 'module-healthcheck';
 
 const app = express();
 
-addToHealthCheck(someGetStatus);
-addToHealthCheck(someOtherGetStatus);
-addToHealthCheck(someOtherAgainGetStatus);
+addHealthCheck(someGetStatus);
+addHealthCheck(someOtherGetStatus);
+addHealthCheck(someOtherAgainGetStatus);
 app.use('/health', healthController);
 app.use('/', controllers);
 
