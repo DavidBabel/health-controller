@@ -2,6 +2,10 @@
 
 This module help to build your healthcheck endpoint
 
+## Warning
+
+To run `npm install` or `yarn install` in your project with this module in it you need to store your key in a ssh-agent or in your MacOs Keychain : https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
 ## Install
 
 To install it in your project, think to fix the version using this kind of command :
@@ -30,16 +34,16 @@ app.listen(3000);
 
 **Note:** The "someGetStatus" fonctions references have to return a Promise
 
-# Work on it
+## Contribute
 
-## Quickstart
+### Quickstart
 
 ```
 yarn install
 yarn build
 ```
 
-## Tests
+### Tests
 
 ```
 yarn test
