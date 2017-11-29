@@ -1,8 +1,8 @@
 {
-  "name": "module-healthcheck",
+  "name": "health-controller",
   "version": "1.0.3",
   "main": "dist/index.js",
-  "repository": "git@github.com:DavidBabel/module-healthcheck.git",
+  "repository": "git@github.com:DavidBabel/health-controller.git",
   "author": "David Babel <david.babel@ogury.co>",
   "license": "MIT",
   "scripts": {

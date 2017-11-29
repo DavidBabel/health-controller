@@ -1,4 +1,4 @@
-# Module Healthcheck
+# Health Middleware
 
 This module help to build your healthcheck endpoint
 
@@ -7,7 +7,7 @@ This module help to build your healthcheck endpoint
 To install it in your project, think to fix the version using this kind of command :
 
 ```
-yarn add Ogury/module-healthcheck#v1.X.X
+yarn add Ogury/health-controller#v1.X.X
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ yarn add Ogury/module-healthcheck#v1.X.X
 You can create the endpoint this way :
 
 ```javascript
-import healthController, {addHealthCheck} from 'module-healthcheck';
+import healthController, {addHealthCheck} from 'health-controller';
 
 const app = express();
 
